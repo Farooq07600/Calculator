@@ -1,0 +1,84 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003049;
+}
+button{
+  height: 60px;
+  width: 60px;
+  margin: 8px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: inset 0px -30px #CED4DA89,-2px 2px #fff, 4px 4px 6px #ADB5BD, -4px -4px 6px #ADB5BD,inset -2px 2px #E5E5E5;
+}
+#calculator{
+  box-shadow:3px -3px 0px #fff;
+    border: 10px;
+    padding: 15px;
+  border-radius: 5px;
+  background-color: #D9D9D9;
+  padding-bottom: 30px;
+}
+input{
+  font-family: "Seven Segment";
+  text-align: right;
+  font-weight: 600;
+  font-size: 35px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 9px;
+  width: 320px;
+  height: 70px;
+  border: none;
+  box-shadow: inset 0px -35px #CED4DA89,-3px 3px #fff,inset 5px 5px 6px #ADB5BD,inset -5px -5px 6px #ADB5BD;
+  
+  margin-bottom: 20px;
+}
+.operatorequal{
+  width: 140px;
+  background-color: #212529;
+  color: white;
+  box-shadow: inset 0px -30px #CED4DA59,-2px 2px #000000,3px 5px 5px #ADB5BD, -5px -3px 5px #ADB5BD,inset -2px 2px #6C757D;
+}
+.operator{
+  background-color: #212529;
+  color: white;
+  box-shadow: inset 0px -30px #CED4DA59,-2px 2px #000000,3px 5px 5px #ADB5BD, -5px -3px 5px #ADB5BD,inset -2px 2px #6C757D;
+  
+}
+.operatorAC{
+  background-color: #d00000;
+  color: white;
+   box-shadow: inset 0px -30px #CED4DA59,-2px 2px #B31000,3px 5px 5px #ADB5BD, -5px -3px 5px #ADB5BD,inset -2px 2px #E72000;
+}
+.operatorDEL{
+  background-color: #d00000;
+  color: white;
+  box-shadow: inset 0px -30px #CED4DA59,-2px 2px #B31000,3px 5px 5px #ADB5BD, -5px -3px 5px #ADB5BD,inset -2px 2px #E72000;
+}
+p{
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#box{
+  background-image: url('image/2.jpg');
+  background-size: cover;
+  position: relative;
+  right: 5px;
+  border-radius: 3px;
+  float: right;
+  display: inline-block;
+  height: 35px;
+  width: 150px;
+  border: solid 5px black;
+}
